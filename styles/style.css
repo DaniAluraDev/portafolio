@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root{
+    --color-primario: #EF5A6F;
+    --color-secundario: #FFF1DB;
+    --color-terciario:#D4BDAC;
+    --color-hoover: #536493;
+
+    --fuente-montserrat: "Montserrat Subrayada", sans-serif;
+    --fuente-krona: 
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);  
+    box-sizing: border-box;
+    
+}
+.header{
+    padding: 1% 0% 0% 15%;
+    background-color: var(--color-hoover);
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link{
+    font-family: "Montserrat Subrayada, sans-serif";
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-terciario);
+    text-decoration: none;
+
+}
+
+.titulo-destaque{
+    color: var(--color-hoover);
+}
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 9% 15%;
+    justify-content: space-between;
+
+}
+.presentacion__content{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.presentacion__content__title{
+    size: 36px;
+    font-family: "Montserrat Subrayada", sans-serif;
+}
+.presentacion__content__text{
+    font-family: Monserrat;
+    font-size: 24px;
+}
+.presentacion__enlaces{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.presentacion__enlaces__link{
+    width: 280px;
+    background-color: var(--color-hoover);
+    text-align: center;
+    padding: 21.5px, 0px;
+    border-radius: 16px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.presentacion__photo{
+    width: 280px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.presentacion__enlaces__link:hover{
+    background-color: var(--color-hoover);
+}
+.footer{
+    background-color: var(--color-hoover);
+    padding: 03%;
+    color: var(--color-terciario);
+    text-align: center;
+    font-family: "Montserrat Subrayada, sans-serif";
+    font-size: 24px;
+    font-weight: 400;
+
+}
